@@ -1,0 +1,70 @@
+@import url(http://fonts.googleapis.com/css?family=Cinzel+Decorative:900);
+@import url(http://fonts.googleapis.com/css?family=Coustard:900);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+
+body {
+    font-family: 'Droid Sans', sans-serif;
+    background: #2e2e2e; color: #c7c7c7;
+}
+
+header{
+    color: #FFF; font-family: 'Cinzel Decorative', cursive;
+}
+
+header h1{
+    font-size: 32px; margin: 32px;
+    text-shadow: 8px 0 2px #000000;
+}
+
+nav {
+}
+
+#navwrap {
+    background-color: #a8a8a8; 
+    padding: 32px; padding-left: 
+}
+
+nav>#navwrap>ul li{
+    display: inline; float: left;
+    margin-right: 64px; 
+    margin-left: 64px;
+}
+
+nav a {
+    color: #131519; font-family: 'Droid Sans', sans-serif;
+    text-decoration: none; font-size: 18px;
+}
+
+nav a:hover {
+    border-bottom: 1px #596a81 solid;
+}
+
+#maincontent {
+    margin: 64px;
+}
+
+h2 {
+    margin-bottom: 32px; font-size: 32px
+    
+}
+
+iframe {
+    display: inline; float: left;
+    margin-right: 32px;
+}
+
+form {
+    display: inline; float: left;
+}
+
+form input, form textarea {
+    border-radius: 0 10px 0 0; background: #eaeaea;
+    border: 1px #596a81 solid;
+}
+
+footer {
+    display: block; clear: both; padding-top: 32px; padding-left: 32px;
+}
+
+
+
